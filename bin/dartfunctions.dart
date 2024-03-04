@@ -27,4 +27,13 @@ void main(List<String> arguments) {
   int stringLength(String text) {
     return text.length;
   }
+
+  // Task 6 taking a list and returning the element in index 0
+  dynamic getFirstElement(List list) {
+    if (list.isNotEmpty) {
+      return list[0];
+    } else {
+      throw ArgumentError("List is empty.");
+    }
+  }
 }
