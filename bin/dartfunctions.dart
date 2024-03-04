@@ -8,4 +8,9 @@ void main(List<String> arguments) {
   int subtractTwo(int a, int b) {
     return a - b;
   }
+
+  // Task 3 multiplication
+  int multiplyTwo(int a, int b) {
+    return a * b;
+  }
 }
