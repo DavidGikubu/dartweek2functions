@@ -36,4 +36,12 @@ void main(List<String> arguments) {
       throw ArgumentError("List is empty.");
     }
   }
+
+  // Test cases to see whether the functions are working
+  print(addTwo(3, 5)); // Output: 8
+  print(subtractTwo(10, 4)); // Output: 6
+  print(multiplyTwo(2, 6)); // Output: 12
+  print(divideTwo(10, 2)); // Output: 5.0
+  print(stringLength("Hello")); // Output: 5
+  print(getFirstElement([1, 2, 3])); // Output: 1
 }
