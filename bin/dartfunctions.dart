@@ -13,4 +13,13 @@ void main(List<String> arguments) {
   int multiplyTwo(int a, int b) {
     return a * b;
   }
+
+  // Task 4 division
+  double divideTwo(double a, double b) {
+    if (b != 0) {
+      return a / b;
+    } else {
+      throw ArgumentError("Division by zero is not allowed.");
+    }
+  }
 }
