@@ -3,4 +3,9 @@ void main(List<String> arguments) {
   int addTwo(int a, int b) {
     return a + b;
   }
+
+  // Task 2 subtraction
+  int subtractTwo(int a, int b) {
+    return a - b;
+  }
 }
