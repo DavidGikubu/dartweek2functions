@@ -22,4 +22,9 @@ void main(List<String> arguments) {
       throw ArgumentError("Division by zero is not allowed.");
     }
   }
+
+  // Task 5 finding the length of a string from a given text
+  int stringLength(String text) {
+    return text.length;
+  }
 }
